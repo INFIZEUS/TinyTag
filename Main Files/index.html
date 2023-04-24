@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assests/icon.png">
+    <title>TinyTag</title>
+  </head>
+  <body>
+
+    <!-- HEADER NAVBAR -->
+    <header>
+      <div id="started" class="navbar">
+        <div class="logo">
+          <a href="" class="nav-bar">
+            <img src="Assests/tinytag.png" alt="">
+          </a>
+          <!-- <a href="#">TinyTag</a> -->
+        </div>
+        <ul class="links">
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="blog">Blog</a></li> -->
+          <li><a href="mailto:lakshitweb03@gmail.com">Contact</a></li>
+        </ul>
+        <!-- Dark Mode Btn -->
+        
+        <!-- Ends Here -->
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="blog">Blog</a></li> -->
+        <li><a href="mailto:lakshitweb03@gmail.com">Contact</a></li>
+        <li><a href="#started" class="action_btn">Get Started</a></li>
+      </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+      <section>
+        <!-- TEXTBOX LINK -->
+        <div class="text-box">
+          <h2 class="top-slogan">Shorten your URLs, <b style="color: #8981bd;">Save your characters</b></h2>
+          <form class="input-group">
+            <!-- <h2 class="top-slogan">Shorten your URLs, save your characters</h2> -->
+            <input type="text" class="input" id="text" name="text" autocomplete="off" placeholder="Enter link here">
+            <input class="button--submit" value="submit" type="submit">
+          </form>
+        </div>
+        <div class="result">
+            
+        </div>
+        <div id="about" class="why">
+          <h2>WHY TINYTAG?</h2>
+        </div>
+        <!-- CARDS  -->
+        <div class="card-main">
+        <div class="card">
+          <div class="card2 small">
+            <i class="fa-solid fa-paper-plane"></i>
+            <h4>Fast</h4>
+            Our URL shortening service is lightning-fast! With optimized processes, we generate shortened links in ~ < 1s, ensuring a seamless UX.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card2">
+            <i class="fa-solid fa-lock"></i>
+            <h4>Secure</h4>
+            Data and Privacy are most important thing in this era. Tinytag does not handle, collect or store any user information.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card2">
+            <i class="fa-solid fa-people-group"></i>
+            <h4>Accessible</h4>
+            Our URL shortening service is highly accessible, with a user-friendly interface and mobile optimization for seamless use on any device.
+          </div>
+        </div>
+      </div>
+
+      <article>
+        <h2>Boost your links Today.</h2>
+        <p class="slogan">Shorten your URLs, save your characters</p>
+        <a href="#started" class="btn">Get Started</a>
+      </article>
+      </section>
+    </main>
+    
+    <!-- FOOTER -->
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://github.com/INFIZEUS">
+              <ion-icon name="logo-github"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://twitter.com/jain_lakshit_17">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://www.linkedin.com/in/lakshit-jain-853b571b0/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+          <li class="menu__item"><a class="menu__link" href="mailto:lakshitweb03@gmail.com">Contact</a></li>
+        </ul>
+        <p>&copy;2023 <a href="" onClick="reload">TinyTag</a>  | All Rights Reserved</p>
+      </footer>
+      <script src="https://kit.fontawesome.com/225494fa57.js" crossorigin="anonymous"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
